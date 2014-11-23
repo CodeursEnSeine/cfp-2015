@@ -684,38 +684,37 @@ object ConferenceDescriptor {
   }
 
   def current() = ConferenceDescriptor(
-    eventCode = "DevoxxFR2014",
+    eventCode = "BreizhCamp2014",
     // You will need to update conf/routes files with this code if modified
-    confUrlCode = "devoxxfr2014",
-    frLangEnabled = true,
-    fromEmail = Play.current.configuration.getString("mail.from").getOrElse("program@devoxx.fr"),
-    committeeEmail = Play.current.configuration.getString("mail.committee.email").getOrElse("program@devoxx.fr"),
+    confUrlCode = "breizhcamp2014",
+    frLangEnabled = false,
+    fromEmail = Play.current.configuration.getString("mail.from").getOrElse("team@breizhcamp.org"),
+    committeeEmail = Play.current.configuration.getString("mail.committee.email").getOrElse("team@breizhcamp.org"),
     bccEmail = Play.current.configuration.getString("mail.bcc"),
-    bugReportRecipient = Play.current.configuration.getString("mail.bugreport.recipient").getOrElse("nicolas.martignole@devoxx.fr"),
+    bugReportRecipient = Play.current.configuration.getString("mail.bugreport.recipient").getOrElse("mimah35@gmail.com"),
     conferenceUrls = ConferenceUrls(
-      faq = "http://www.devoxx.fr/faq/",
-      registration = "http://reg.devoxx.fr",
-      confWebsite = "http://www.devoxx.fr/",
-      cfpHostname = Play.current.configuration.getString("cfp.hostname").getOrElse("cfp.devoxx.fr")
+      faq = "http://www.breizhcamp.org/faq/",
+      registration = "http://reg.breizhcamp.org",
+      confWebsite = "http://www.breizhcamp.org/",
+      cfpHostname = Play.current.configuration.getString("cfp.hostname").getOrElse("cfp.breizhcamp.org")
     ),
     timing = ConferenceTiming(
-      datesI18nKey = "8 au 10 avril 2015",
-      speakersPassDuration = 5,
+      datesI18nKey = "10 au 12 juin 2015",
+      speakersPassDuration = 3,
       preferredDayEnabled = true,
-      firstDayFr = "8 avril",
-      firstDayEn = "april 8th",
-      datesFr = "du 8 au 10 avril 2015",
-      datesEn = "from 8th to 10th of April, 2015",
-      cfpOpenedOn = DateTime.parse("2014-11-17T00:00:00+01:00"),
-      cfpClosedOn = DateTime.parse("2015-01-17T23:59:59+01:00"),
-      scheduleAnnouncedOn = DateTime.parse("2014-02-13T00:00:00+01:00")
+      firstDayFr = "10 juin",
+      firstDayEn = "june 10th",
+      datesFr = "du 10 au 12 juin 2015",
+      datesEn = "from 10th to 12th of June, 2015",
+      cfpOpenedOn = DateTime.parse("2015-02-01T00:00:00+01:00"),
+      cfpClosedOn = DateTime.parse("2015-04-01T23:59:59+01:00"),
+      scheduleAnnouncedOn = DateTime.parse("2014-04-13T00:00:00+01:00")
     ),
-    hosterName = "Clever-cloud", hosterWebsite = "http://www.clever-cloud.com/#DevoxxFR",
-    hashTag = "#DevoxxFR",
+    hosterName = "Google cloud", hosterWebsite = "https://cloud.google.com/",
+    hashTag = "#Breizhcamp",
     conferenceSponsor = ConferenceSponsor(showSponsorProposalCheckbox = true, sponsorProposalType = ConferenceProposalTypes.CONF)
     , List("fr_FR")
-    , "Palais des Congrès, Porte Maillot, Paris"
-    ,showQuestion=false
+    , "ISTIC, Campus de Beaulieu, Rennes"
   )
 
   val isCFPOpen: Boolean = {
