@@ -99,7 +99,7 @@ lang=Langue
 lang.help=Les présentations à BreizhCamp doivent être en Français, sauf exceptions.
 mainSpeaker=Présentateur principal
 mainSpeaker.help=Vous avez la possibilité d''ajouter d''autres présentateurs une fois que la proposition est créé. Nous offrons une entrée 3 jours à BreizhCamp uniquement pour les formats de présentation suivants : Conference, University, Hands-on-Labs et Tools-in-Action.
-talkType.help=Chaque type de conférence est détaillé sur la page <a href="http://www.devoxx.fr/faq/#confType" target="new">FAQ</a> du site BreizhCamp.
+talkType.help=Chaque type de conférence est détaillé sur la page <a href="http://www.breizhcamp.org/faq/#confType" target="new">FAQ</a> du site BreizhCamp.
  
  
 talkType=Type de présentation

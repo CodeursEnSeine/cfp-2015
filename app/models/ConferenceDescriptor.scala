@@ -684,9 +684,9 @@ object ConferenceDescriptor {
   }
 
   def current() = ConferenceDescriptor(
-    eventCode = "BreizhCamp2014",
+    eventCode = "BreizhCamp2015",
     // You will need to update conf/routes files with this code if modified
-    confUrlCode = "breizhcamp2014",
+    confUrlCode = "breizhcamp2015",
     frLangEnabled = false,
     fromEmail = Play.current.configuration.getString("mail.from").getOrElse("team@breizhcamp.org"),
     committeeEmail = Play.current.configuration.getString("mail.committee.email").getOrElse("team@breizhcamp.org"),
@@ -708,7 +708,7 @@ object ConferenceDescriptor {
       datesEn = "from 10th to 12th of June, 2015",
       cfpOpenedOn = DateTime.parse("2015-02-01T00:00:00+01:00"),
       cfpClosedOn = DateTime.parse("2015-04-01T23:59:59+01:00"),
-      scheduleAnnouncedOn = DateTime.parse("2014-04-13T00:00:00+01:00")
+      scheduleAnnouncedOn = DateTime.parse("2015-04-13T00:00:00+01:00")
     ),
     hosterName = "Google cloud", hosterWebsite = "https://cloud.google.com/",
     hashTag = "#Breizhcamp",
