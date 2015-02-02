@@ -712,9 +712,10 @@ object ConferenceDescriptor {
     ),
     hosterName = "Google cloud", hosterWebsite = "https://cloud.google.com/",
     hashTag = "#Breizhcamp",
-    conferenceSponsor = ConferenceSponsor(showSponsorProposalCheckbox = true, sponsorProposalType = ConferenceProposalTypes.CONF)
-    , List("fr_FR")
-    , "ISTIC, Campus de Beaulieu, Rennes"
+    conferenceSponsor = ConferenceSponsor(showSponsorProposalCheckbox = true, sponsorProposalType = ConferenceProposalTypes.CONF),
+    List("fr_FR"),
+    "ISTIC, Campus de Beaulieu, Rennes" ,
+    showQuestion = true
   )
 
   val isCFPOpen: Boolean = {
