@@ -187,11 +187,11 @@ bigd.label=BigData et Analytics
 
 track.future.title=Objects connectés, IoT, Robotique
 track.future.desc=L''internet des objets, la robotique, la domotique et l''embarqué
-future.label=IoT
+future.label=Objects connectés, IoT, Robotique
 
 track.lang.title=Langages
 track.lang.desc=Ruby, Scala, Javascript, Haskell, C#, Dart, PHP, Go, Python etc.
-lang.label=Il n'y a pas que Java dans la vie d'un programmeur
+lang.label=Langages
 
 # Confirm import
 confirm.import.title=Créer votre profil de présentateur BreizhCamp
