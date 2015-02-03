@@ -1,7 +1,7 @@
 # -----------------
 # Main conference details
-CONF.title=Devoxx France 2015
-CONF.subtitle=FR
+CONF.title=BreizhCamp 2015
+CONF.subtitle=
 
 # Equivalent to ConferenceNaming
 shortYearlyName=BreizhCamp 2015
@@ -13,7 +13,7 @@ longSplittedName_colored=
 longSplittedName_whiteEnd=BreizhCamp
 conference.dates=10th-12th June
 # -----------------
-cfp.title=Devoxx FR 2015 CFP
+cfp.title=BreizhCamp 2015 CFP
 login.error=Invalid email or password
 menu.home=Home
 menu.register=Sign-in
