@@ -173,7 +173,7 @@ object Proposal {
 
   implicit val proposalFormat = Json.format[Proposal]
 
-  val langs = Seq(("en", "English"), ("fr", "Français"))
+  val langs = Seq(("fr", "Français"), ("en", "English"))
 
   val audienceLevels = Seq(("novice", "Novice"), ("intermediate", "Intermediate"), ("expert", "Expert"))
 
