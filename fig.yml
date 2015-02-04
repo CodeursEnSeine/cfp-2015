@@ -1,11 +1,11 @@
-cfp-elasticsearch:
+elasticsearch:
   image: dockerfile/elasticsearch
   hostname: elasticsearch
   ports:
    - "9200:9200"
    - "9300:9300"
 
-cfp-redis:
+redis:
   image: redis
   hostname: redis
   ports:
@@ -13,11 +13,11 @@ cfp-redis:
   volumes:
    - $PWD/data:/data
 
-cfp-webapp:
+webapp:
   image: breizhcamp/cfp-webapp
   ports:
    - "80:9000"
   links:
-   - cfp-redis:redis
-   - cfp-elasticsearch:elasticsearch
+   - redis:redis
+   - elasticsearch:elasticsearch
 
