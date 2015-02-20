@@ -86,15 +86,16 @@ github.importprofile.error.namenotfound=Votre nom n''a pu être récupéré.
 github.importprofile.error.advice=Vous pouvez modifier votre configuration sur https://github.com/settings/profile
  
 # CFP New
+new.proposal=Nouvelle proposition de sujet
 New.proposal=Nouvelle proposition de sujet, étape 1/2
 New.proposal2=Nouvelle proposition de sujet, étape 2/2
 Edit.proposal=Editer une proposition, étape 1/2
 Edit.proposal2=Editer une proposition, étape 2/2
  
 title=Titre de la présentation
-title.help=Proposez un titre simple, clair, qui résume ce que le participant va apprendre. Beaucoup de conférenciers sélectionnent une conférence au dernier moment, en se basant sur le titre.
+title.help=Proposez un titre simple, clair, qui résume ce que le participant va apprendre. Beaucoup de participants sélectionnent une conférence au dernier moment, en se basant sur le titre.
 summary=Résumé de votre présentation pour le participant
-summary.help=Décrivez votre proposition, telle que le conférencier la lira. Vous pouvez utiliser la syntaxe <a href="http://daringfireball.net/projects/markdown/syntax/" target="_blank">Markdown</a>.
+summary.help=Décrivez votre proposition, telle que le participant la lira. Vous pouvez utiliser la syntaxe <a href="http://daringfireball.net/projects/markdown/syntax/" target="_blank">Markdown</a>.
 lang=Langue
 lang.help=Les présentations à BreizhCamp doivent être en Français, sauf exceptions.
 mainSpeaker=Présentateur principal
@@ -315,7 +316,7 @@ next.page=Page suivante
  
 admin.proposal=Proposition de sujet
 admin.proposals.th.lang=Langue
-admin.proposals.th.abstract=Texte pour le programme, vu par le conférencier
+admin.proposals.th.abstract=Texte pour le programme, vu par le participant
 admin.sp.mainSpeaker=Présentateur principal
 admin.sp.secSpeaker=2ème présentateur
 admin.sp.otherSpeaker=Autre présentateur(s)
