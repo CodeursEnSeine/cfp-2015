@@ -98,7 +98,7 @@ summary.help=Décrivez votre proposition, telle que le conférencier la lira. Vo
 lang=Langue
 lang.help=Les présentations à BreizhCamp doivent être en Français, sauf exceptions.
 mainSpeaker=Présentateur principal
-mainSpeaker.help=Vous avez la possibilité d''ajouter d''autres présentateurs une fois que la proposition est créé. Nous offrons une entrée 3 jours à BreizhCamp uniquement pour les formats de présentation suivants : Conference, University, Hands-on-Labs et Tools-in-Action.
+mainSpeaker.help=Vous avez la possibilité d''ajouter d''autres présentateurs une fois que la proposition est créé. Nous offrons une entrée 3 jours à BreizhCamp uniquement pour les formats de présentation suivants : Conférence, University, Hands-on-Labs et Tools-in-Action.
 talkType.help=Chaque type de conférence est détaillé sur la page <a href="http://www.breizhcamp.org/faq/#confType" target="new">FAQ</a> du site BreizhCamp.
  
  
@@ -128,7 +128,7 @@ presubmit.reminder=Lorsque vous êtes prêt à soumettre votre proposition, n''o
 
 # Proposal type
 key.label=Keynote, 50mn, jeudi et vendredi matin
-conf.label=Conference, 45mn, jeudi et vendredi
+conf.label=Conférence, 45mn, jeudi et vendredi
 uni.label=University, 3h, mercredi uniquement
 tia.label=Tools in Action, 30mn, mercredi uniquement
 quick.label=Quickie, 15mn, jeudi et vendredi midi
@@ -261,8 +261,8 @@ speakers.updated=Liste des présentateurs mises à jour
 noOther.speaker=---- Pas d''autre présentateur ----
  
 # short talk
-conf=Conference
-uni=University
+conf=Conférence
+uni=Université
 tia=Tools-in-Action
 lab=Hand''s on Labs
 quick=Quickie
@@ -391,7 +391,7 @@ ar.checkMyProposals=Accepter ou décliner les soumissions approuvées par le com
 ar.goBackHome=Retour à l''accueil
  
 sw.proposal.title=Titre
-sw.proposal.talkType=Type de presentation
+sw.proposal.talkType=Type de présentation
 sw.proposal.summary=Résumé
 sw.proposal.track=Track
 sw.proposal.lang=Langue
