@@ -128,15 +128,15 @@ preview.warn2=dans le tableau de la page d''accueil.
 presubmit.reminder=Lorsque vous êtes prêt à soumettre votre proposition, n''oubliez pas de cliquer sur l''enveloppe orange sur l''écran principal (
 
 # Proposal type
-key.label=Keynote, 50mn, jeudi et vendredi matin
-conf.label=Conférence, 45mn, jeudi et vendredi
+key.label=Keynote, 20min, jeudi et vendredi matin
+conf.label=Conférence, 55min, jeudi et vendredi
 uni.label=University, 3h, mercredi uniquement
-tia.label=Tools in Action, 30mn, mercredi uniquement
-quick.label=Quickie, 15mn, jeudi et vendredi midi
+tia.label=Tools in Action, 30min, mercredi uniquement
+quick.label=Quickie, 15min, jeudi et vendredi midi
 amd.label=Après-midi des Décideurs, 30mn, jeudi après-midi
 bof.label=Bird of a Feather, 1h, jeudi soir uniquement
 other.label=Autre type de présentation
-lab.label=Hand''s on Lab, 3h, mercredi uniquement
+lab.label=Hand''s on Lab, 2h, jeudi uniquement
 hack.label=Hackaton (événement spécial)
 
 # Bug report

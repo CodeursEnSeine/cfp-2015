@@ -122,19 +122,30 @@ preview.warn2=in the main CFP screen.
 next.action=Select next action:
 
 # Proposal type
-key.label=Keynote, 20mn, Wednesday, Thursday
+
+conf.label=Conférence, 55min, jeudi et vendredi
+uni.label=University, 3h, mercredi uniquement
+tia.label=Tools in Action, 30min, mercredi uniquement
+quick.label=Quickie, 15min, jeudi et vendredi midi
+amd.label=Après-midi des Décideurs, 30mn, jeudi après-midi
+bof.label=Bird of a Feather, 1h, jeudi soir uniquement
+other.label=Autre type de présentation
+lab.label=Hand''s on Lab, 2h, jeudi uniquement
+hack.label=Hackaton (événement spécial)
+
+key.label=Keynote, 20mn, Thursday and Friday 
 key.label.simple=Keynote
-conf.label=Conference, 1h, Wednesday, Thursday and Friday morning
+conf.label=Conference, 55min, Thursday and Friday 
 conf.label.simple=Conference
-uni.label=University, 3h, Monday or Tuesday
+uni.label=University, 3h, Wednesday
 uni.label.simple=University
-tia.label=Tools in Action, 30mn, only Monday or Tuesday
+tia.label=Tools in Action, 30mn, Thursday and Friday 
 tia.label.simple=Tools in Action
 quick.label=Quickie, 15mn, Wednesday and Thursday, during lunch
 quick.label.simple=Quickie
-bof.label=Bird of a Feather, 1h, Monday to Thursday evening
+bof.label=Bird of a Feather, 1h, Thursday evening
 bof.label.simple=Bird of a Feather
-lab.label=Hands-on Labs, 3h, Monday and Tuesday
+lab.label=Hands-on Labs, 2h, Thursday
 lab.label.simple=Hand''s on Lab
 other.label=Other event
 other.label.simple=Other
