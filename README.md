@@ -14,8 +14,8 @@ and Redis 2.8 to persist datas. The application focus on simplicity and pragmati
 
 ## How to set-up a local and friendly developer environment ?
 
-- Install Play 2.2.3 (not the latest version with activator)
-- Install Redis 2.8.4, do not use "brew install redis" on Mac, as it would install 2.6, an older version of Redis
+- Install Play 2.2.3 (not the latest version with activator) : http://downloads.typesafe.com/play/2.2.3/play-2.2.3.zip
+- Install Redis 2.8.4, do not use "brew install redis" on Mac, as it would install 2.6, an older version of Redis : http://download.redis.io/releases/redis-2.8.4.tar.gz
 - Read Redis documentation and learn Redis with http://try.redis.io
 - Read also the self-document redis.conf https://raw.githubusercontent.com/antirez/redis/2.8/redis.conf
 
@@ -172,6 +172,7 @@ Voici ce que vous devez configurer :
 - BDX.io
 - Scala.io
 - BreizhCamp
+- Lean Kanban France
 
 # Hébergement
 
