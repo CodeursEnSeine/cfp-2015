@@ -1,19 +1,19 @@
 # -----------------
 # Main conference details
-CONF.title=Devoxx France 2015
-CONF.subtitle=FR
+CONF.title=BreizhCamp 2015
+CONF.subtitle=
 
 # Equivalent to ConferenceNaming
-shortYearlyName=Devoxx FR 2015
-longYearlyName=Devoxx France 2015
-shortName=Devoxx France
-longName=Devoxx FR 2015 CFP
-longSplittedName_whiteStart=Devox
-longSplittedName_colored=x
-longSplittedName_whiteEnd=FR 2015
-conference.dates=10th-14th November
+shortYearlyName=BreizhCamp 2015
+longYearlyName=BreizhCamp 2015
+shortName=BreizhCamp
+longName=BreizhCamp CFP
+longSplittedName_whiteStart=
+longSplittedName_colored=
+longSplittedName_whiteEnd=BreizhCamp
+conference.dates=10th-12th June
 # -----------------
-cfp.title=Devoxx FR 2015 CFP
+cfp.title=BreizhCamp 2015 CFP
 login.error=Invalid email or password
 menu.home=Home
 menu.register=Sign-in
@@ -36,6 +36,7 @@ blog=Your blog or company website
 qualifications=Your speaker''s qualifications
 qualifications2=Speaker''s qualifications
 qualifications.label=Speaker qualifications
+qualifications.otherproposals=Other proposals
 index.signupTitle=Sign-up as a speaker
 index.signup2=Sign-up as speaker for {0} and propose one or more subjects.
 index.signup3=Sign-up with one of your social profile in 5 seconds. No password needed.
@@ -77,7 +78,7 @@ New.proposal2=New proposal - step 2/2
 Edit.proposal=Edit proposal - step 1/2
 Edit.proposal2=Edit proposal - step 2/2
 title=Presentation title
-title.help=Think carefully and try to create a title that is descriptive enough. Most Devoxxians selects a talk at the very last minute only based on its title.
+title.help=Think carefully and try to create a title that is descriptive enough. Most attendees select a talk at the very last minute only based on its title.
 summary=Summary of your presentation, for the attendee
 summary.help=Describe your proposal as it will appear on our website and mobile apps. You can use Markdown syntax.
 lang=Main language
@@ -90,7 +91,7 @@ talkType=Type of talk
 talkType.help=Each type of talk is described on the <a href\="{0}\#confType" target\="new">FAQ</a>.
 
 audienceLevel=Audience level :
-audienceLevel.help=Please, indicate the required audience level for your talk:\
+audienceLevel.help=Please, indicate the required audience level for your talk\:\
 1- for all audience, beginner or novice\
 2- for intermediate, talented\
 3- experienced, proficient\
@@ -122,19 +123,30 @@ preview.warn2=in the main CFP screen.
 next.action=Select next action:
 
 # Proposal type
-key.label=Keynote, 20mn, Wednesday, Thursday
+
+conf.label=Conférence, 55min, jeudi et vendredi
+uni.label=University, 3h, mercredi uniquement
+tia.label=Tools in Action, 30min, mercredi uniquement
+quick.label=Quickie, 15min, jeudi et vendredi midi
+amd.label=Après-midi des Décideurs, 30mn, jeudi après-midi
+bof.label=Bird of a Feather, 1h, jeudi soir uniquement
+other.label=Autre type de présentation
+lab.label=Hand''s on Lab, 2h, jeudi uniquement
+hack.label=Hackaton (événement spécial)
+
+key.label=Keynote, 20mn, Thursday and Friday 
 key.label.simple=Keynote
-conf.label=Conference, 45mn, Wednesday, Thursday and Friday morning
+conf.label=Conference, 55min, Thursday and Friday 
 conf.label.simple=Conference
-uni.label=University, 3h, Monday or Tuesday
+uni.label=University, 3h, Wednesday
 uni.label.simple=University
-tia.label=Tools in Action, 30mn, only Monday or Tuesday
+tia.label=Tools in Action, 30mn, Thursday and Friday 
 tia.label.simple=Tools in Action
 quick.label=Quickie, 15mn, Wednesday and Thursday, during lunch
 quick.label.simple=Quickie
-bof.label=Bird of a Feather, 1h, Monday to Thursday evening
+bof.label=Bird of a Feather, 1h, Thursday evening
 bof.label.simple=Bird of a Feather
-lab.label=Hands-on Labs, 3h, Monday and Tuesday
+lab.label=Hands-on Labs, 2h, Thursday
 lab.label.simple=Hand''s on Lab
 other.label=Other event
 other.label.simple=Other
@@ -159,17 +171,17 @@ cfp.reminder.proposals=do not forget to submit your Draft
 cfp.program=Program announced :
 cfp.program.date=from {0}
 video.title=Videos
-video.tag=Review Devoxx FR 2014''s videos on
+video.tag=Review BreizhCamp 2014''s videos on
 theme.title=Tracks
-theme.track=List of tracks for Devoxx France 2015:
+theme.track=List of tracks for BreizhCamp 2015:
 track.title=Title
 track.description=Description
-appel.conf.dates=Devoxx France 2015, 8th-10th April 2015
+appel.conf.dates=BreizhCamp 2015, 10th-12th June
 
 # Tracks
 track.webmobile.title=Web, Mobile &  UX
 track.webmobile.desc=Web, mobile, user-experience, front-end and Web architecture
-wm.label=Web, Mobile & UX
+webmobile.label=Web, Mobile & UX
 
 track.archisec.title=Architecture, Performance & Security
 track.archisec.desc=Software architecture, performance, encryption and best practices to develop secure software
@@ -177,11 +189,11 @@ archisec.label=Architecture, Performance and Security
 
 track.agilityTest.title=Agility, Methodology & Test
 track.agilityTest.desc=Software development methodologies, TDD, BDD, xDD
-agTest.label=Agility, Methodology & Test
+agilityTest.label=Agility, Methodology & Test
 
-track.java.title=Java, infinite possibilities
+track.java.title=Java, infinite possibilities &#8734;
 track.java.desc=Everything about Java, the JVM, Java SE 8 or Java EE.
-java.label=Java, infinite possibilities
+java.label=Java, infinite possibilities &#8734;
 
 track.cloudDevops.title=Cloud, DevOps and Tools
 track.cloudDevops.desc=Cloud-computing, DevOps, Paas, Iaas
@@ -191,13 +203,17 @@ track.bigdata.title=Big Data & Analytics
 track.bigdata.desc=From real-time analysis to massive prediction and cloud storage
 bigdata.label=Big Data & Analytics
 
-track.future.title=Future<Devoxx>
+track.future.title=Future<BreizhCamp>
 track.future.desc=Developing for embedded devices, the internet of things, Arduino, raspberry pi, quadcopters, robots and related
-future.label=Future<Devoxx>
+future.label=Future<BreizhCamp>
 
 track.lang.title=Alternate Languages
 track.lang.desc=Groovy, Scala, Javascript, Clojure, Haskell, C#, Dart, Ceylon, Go, etc.
 lang.label=Alternate Languages
+
+track.web.title=Web & HTML5
+track.web.desc=Web frameworks, HTML5, CSS3, the next JavaScript ES6, libraries and tools that help you build the next generation of web apps
+web.label=Web & HTML5
 
 # confirm import
 confirm.import.title=Create your Speaker''s profile
@@ -502,11 +518,11 @@ sw.show.thu=Thursday
 sw.show.thursday=Thursday
 sw.show.fri=Friday
 sw.show.friday=Friday
-sw.show.title.mon=Monday, 6th April 2015
-sw.show.title.tue=Tuesday, 7th April 2015
-sw.show.title.wed=Wednesday, 8th April 2015
-sw.show.title.thu=Thursday, 9th April 2015
-sw.show.title.fri=Friday, 10th April 2015
+sw.show.title.mon=Monday, 10th November 2014
+sw.show.title.tue=Tuesday, 11th November 2014
+sw.show.title.wed=Wednesday, 10th June 2015
+sw.show.title.thu=Thursday, 11th June 2015
+sw.show.title.fri=Friday, 12th June 2015
 
 sw.horaires=Schedule
 sw.breakfast=Welcome and Breakfast
@@ -599,7 +615,7 @@ mail.account_created.subject=Welcome to the CFP for {0} !
 mail.email_validation.subject=Welcome to {0}, please validate your email address now
 mail.issue_reported.subject=New issue reported on CFP web site
 mail.cfp_message_to_speaker.subject=[{1}] Message about your presentation {0}
-mail.question_to_speaker.subject=[{1}] New question posted on Devoxx Web site about {0}
+mail.question_to_speaker.subject=[{1}] New question posted on BreizhCamp Web site about {0}
 mail.speaker_message_to_cfp.subject=[{0}] {1} posted a new message
 mail.notify_proposal.subject={0} submitted a proposal [{1}]
 mail.notify_proposal.content=A Proposal has been submitted on the CFP, with Title: [{0}], Track: [{1}] and Type: [{2}]
@@ -629,7 +645,7 @@ agilite.label=Agilité, DevOps
 amd.label=Après-midi des Décideurs, 30mn, jeudi après-midi
 cfp.closed=CFP is currently closed.
 cfp.closing.date=pensez à accepter ou décliner les sujets approuvés par le comité.
-cfp.opening.date=Lundi 2 décembre 2013
+cfp.opening.date=Lundi 2 mars 2015
 constraint.email=Valid email address
 constraint.max=Max value : {0}
 constraint.maxLength=Max length: {0}
@@ -642,8 +658,8 @@ error.invalid=Invalid value
 hack.label=Hackaton
 lg_alter.label=Alternate languages on the JVM
 lgaltern.label=Alternate languages on the JVM
-menu.blog=Site DevoxxFR
-signup.long=Register as a speaker on Devoxx France CFP
+menu.blog=Site BreizhCamp
+signup.long=Register as a speaker on BreizhCamp CFP
 sw.all.hack=Hackatons
 approved=Speaker approved
 cstory=Session de live coding Code-story

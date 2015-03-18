@@ -50,7 +50,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
 
       // GIVEN
       val proposal = Proposal.validateNewProposal(None, "fr", "test proposal", None, Nil,
-        ConferenceDescriptor.ConferenceProposalTypes.BOF.id,
+        ConferenceDescriptor.ConferenceProposalTypes.LAB.id,
         "audience level", "summary", "private message", sponsorTalk = false,
         ConferenceDescriptor.ConferenceTracks.JAVA.id, Some("beginner"),
         userGroup = Some(true))
@@ -62,7 +62,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
 
       // THEN
       ApprovedProposal.countApproved("all") mustEqual 1
-      ApprovedProposal.countApproved(ConferenceDescriptor.ConferenceProposalTypes.BOF.id) mustEqual 1
+      ApprovedProposal.countApproved(ConferenceDescriptor.ConferenceProposalTypes.LAB.id) mustEqual 1
       ApprovedProposal.countApproved(ConferenceDescriptor.ConferenceProposalTypes.CONF.id) mustEqual 0
     }
 
@@ -76,7 +76,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
 
       // GIVEN
       val proposal = Proposal.validateNewProposal(None, "fr", "test proposal", None, Nil,
-        ConferenceDescriptor.ConferenceProposalTypes.BOF.id,
+        ConferenceDescriptor.ConferenceProposalTypes.LAB.id,
         "audience level", "summary", "private message", sponsorTalk = false,
         ConferenceDescriptor.ConferenceTracks.JAVA.id, Some("beginner"),
         userGroup = None)
@@ -90,7 +90,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
 
       // THEN
       ApprovedProposal.countApproved("all") mustEqual 1
-      ApprovedProposal.countApproved(ConferenceDescriptor.ConferenceProposalTypes.BOF.id) mustEqual 0
+      ApprovedProposal.countApproved(ConferenceDescriptor.ConferenceProposalTypes.LAB.id) mustEqual 0
       ApprovedProposal.countApproved(ConferenceDescriptor.ConferenceProposalTypes.CONF.id) mustEqual 1
     }
 
@@ -104,7 +104,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
 
       // GIVEN
       val proposal = Proposal.validateNewProposal(None, "fr", "test proposal 2", None, Nil,
-        ConferenceDescriptor.ConferenceProposalTypes.BOF.id,
+        ConferenceDescriptor.ConferenceProposalTypes.QUICK.id,
         "audience level", "summary 2", "private message 2", sponsorTalk = false,
         ConferenceDescriptor.ConferenceTracks.JAVA.id, Some("beginner"),
         userGroup = None)
@@ -118,7 +118,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
 
       // THEN
       ApprovedProposal.countRefused("all") mustEqual 1
-      ApprovedProposal.countRefused(ConferenceDescriptor.ConferenceProposalTypes.BOF.id) mustEqual 0
+      ApprovedProposal.countRefused(ConferenceDescriptor.ConferenceProposalTypes.QUICK.id) mustEqual 0
       ApprovedProposal.countRefused(ConferenceDescriptor.ConferenceProposalTypes.LAB.id) mustEqual 1
     }
 
@@ -132,7 +132,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
 
       // GIVEN
       val proposal = Proposal.validateNewProposal(None, "fr", "test proposal 2", None, Nil,
-        ConferenceDescriptor.ConferenceProposalTypes.BOF.id,
+        ConferenceDescriptor.ConferenceProposalTypes.QUICK.id,
         "audience level", "summary 2", "private message 2", sponsorTalk = false,
         ConferenceDescriptor.ConferenceTracks.JAVA.id, Some("beginner"),
         userGroup = None)
@@ -146,7 +146,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
 
       // THEN
       ApprovedProposal.countApproved("all") mustEqual 0
-      ApprovedProposal.countApproved(ConferenceDescriptor.ConferenceProposalTypes.BOF.id) mustEqual 0
+      ApprovedProposal.countApproved(ConferenceDescriptor.ConferenceProposalTypes.QUICK.id) mustEqual 0
     }
 
     "decrease total refused when a refused proposal is deleted" in new WithApplication(app = appWithTestRedis()) {
@@ -188,7 +188,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
       val proposal = Proposal.validateNewProposal(None, "fr", "test proposal 2",
         None,
         Nil,
-        ConferenceDescriptor.ConferenceProposalTypes.BOF.id,
+        ConferenceDescriptor.ConferenceProposalTypes.QUICK.id,
         "audience level", "summary 2", "private message 2", sponsorTalk = false,
         ConferenceDescriptor.ConferenceTracks.JAVA.id, Some("beginner"),
         userGroup = None)
@@ -216,7 +216,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
       val proposal = Proposal.validateNewProposal(None, "fr", "test proposal 2",
         Some("secondarySpeaker"),
         Nil,
-        ConferenceDescriptor.ConferenceProposalTypes.BOF.id,
+        ConferenceDescriptor.ConferenceProposalTypes.QUICK.id,
         "audience level", "summary 2", "private message 2", sponsorTalk = false,
         ConferenceDescriptor.ConferenceTracks.JAVA.id, Some("beginner"),
         userGroup = None)
@@ -244,7 +244,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
       val proposal = Proposal.validateNewProposal(None, "fr", "test proposal 2",
         None,
         List("someOtherSpeaker"),
-        ConferenceDescriptor.ConferenceProposalTypes.BOF.id,
+        ConferenceDescriptor.ConferenceProposalTypes.QUICK.id,
         "audience level", "summary 2", "private message 2", sponsorTalk = false,
         ConferenceDescriptor.ConferenceTracks.JAVA.id, Some("beginner"),
         userGroup = None)
@@ -271,7 +271,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
       val proposal = Proposal.validateNewProposal(None, "fr", "test proposal 2",
         None,
         Nil,
-        ConferenceDescriptor.ConferenceProposalTypes.BOF.id,
+        ConferenceDescriptor.ConferenceProposalTypes.QUICK.id,
         "audience level", "summary 2", "private message 2", sponsorTalk = false,
         ConferenceDescriptor.ConferenceTracks.JAVA.id, Some("beginner"),
         userGroup = None)
@@ -301,7 +301,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
       val proposal = Proposal.validateNewProposal(None, "fr", "test proposal 2",
         Some("secondarySpeaker"),
         Nil,
-        ConferenceDescriptor.ConferenceProposalTypes.BOF.id,
+        ConferenceDescriptor.ConferenceProposalTypes.QUICK.id,
         "audience level", "summary 2", "private message 2", sponsorTalk = false,
         ConferenceDescriptor.ConferenceTracks.JAVA.id, Some("beginner"),
         userGroup = None)
@@ -331,7 +331,7 @@ class ApprovedProposalSpecs extends PlaySpecification {
       val proposal = Proposal.validateNewProposal(None, "fr", "test proposal 2",
         Some("secondarySpeaker"),
         List("firstThirdSpeaker"),
-        ConferenceDescriptor.ConferenceProposalTypes.BOF.id,
+        ConferenceDescriptor.ConferenceProposalTypes.QUICK.id,
         "audience level", "summary 2", "private message 2", sponsorTalk = false,
         ConferenceDescriptor.ConferenceTracks.JAVA.id, Some("beginner"),
         userGroup = None)
