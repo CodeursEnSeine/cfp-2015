@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t breizhcamp/cfp-webapp .
+docker build -t lkfr/cfp-webapp .
