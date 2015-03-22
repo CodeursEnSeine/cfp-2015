@@ -2,7 +2,7 @@
 
 Hi,
 
-You received a new message from someone that visited the BreizhCamp CFP web site, regarding your talk "@proposal.title".
+You received a new message from someone that visited the Lean Kanban Francev CFP web site, regarding your talk "@proposal.title".
 
 Message:
 ------------------------------------------------------------------------------

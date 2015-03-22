@@ -1,19 +1,19 @@
 # -----------------
 # Main conference details
-CONF.title=BreizhCamp 2015
+CONF.title=Lean Kanban France 2015
 CONF.subtitle=
 
 # Equivalent to ConferenceNaming
-shortYearlyName=BreizhCamp 2015
-longYearlyName=BreizhCamp 2015
-shortName=BreizhCamp
-longName=BreizhCamp CFP
+shortYearlyName=LKFR 2015
+longYearlyName=Lean Kanban France 2015
+shortName=LKFR
+longName=Lean Kanban France CFP
 longSplittedName_whiteStart=
 longSplittedName_colored=
-longSplittedName_whiteEnd=BreizhCamp
-conference.dates=10th-12th June
+longSplittedName_whiteEnd=Lean Kanban France
+conference.dates=3rd-4th November
 # -----------------
-cfp.title=BreizhCamp 2015 CFP
+cfp.title=Lean Kanban France 2015 CFP
 login.error=Invalid email or password
 menu.home=Home
 menu.register=Sign-in
@@ -171,12 +171,12 @@ cfp.reminder.proposals=do not forget to submit your Draft
 cfp.program=Program announced :
 cfp.program.date=from {0}
 video.title=Videos
-video.tag=Review BreizhCamp 2014''s videos on
+video.tag=Review Lean Kanban France 2015''s videos on
 theme.title=Tracks
-theme.track=List of tracks for BreizhCamp 2015:
+theme.track=List of tracks for Lean Kanban France 2015:
 track.title=Title
 track.description=Description
-appel.conf.dates=BreizhCamp 2015, 10th-12th June
+appel.conf.dates=Lean Kanban France 2015, 3rd-4th November
 
 # Tracks
 track.webmobile.title=Web, Mobile &  UX
@@ -203,9 +203,9 @@ track.bigdata.title=Big Data & Analytics
 track.bigdata.desc=From real-time analysis to massive prediction and cloud storage
 bigdata.label=Big Data & Analytics
 
-track.future.title=Future<BreizhCamp>
+track.future.title=Future<Lean Kanban France>
 track.future.desc=Developing for embedded devices, the internet of things, Arduino, raspberry pi, quadcopters, robots and related
-future.label=Future<BreizhCamp>
+future.label=Future<Lean Kanban France>
 
 track.lang.title=Alternate Languages
 track.lang.desc=Groovy, Scala, Javascript, Clojure, Haskell, C#, Dart, Ceylon, Go, etc.
@@ -615,7 +615,7 @@ mail.account_created.subject=Welcome to the CFP for {0} !
 mail.email_validation.subject=Welcome to {0}, please validate your email address now
 mail.issue_reported.subject=New issue reported on CFP web site
 mail.cfp_message_to_speaker.subject=[{1}] Message about your presentation {0}
-mail.question_to_speaker.subject=[{1}] New question posted on BreizhCamp Web site about {0}
+mail.question_to_speaker.subject=[{1}] New question posted on Lean Kanban France Web site about {0}
 mail.speaker_message_to_cfp.subject=[{0}] {1} posted a new message
 mail.notify_proposal.subject={0} submitted a proposal [{1}]
 mail.notify_proposal.content=A Proposal has been submitted on the CFP, with Title: [{0}], Track: [{1}] and Type: [{2}]
@@ -658,8 +658,8 @@ error.invalid=Invalid value
 hack.label=Hackaton
 lg_alter.label=Alternate languages on the JVM
 lgaltern.label=Alternate languages on the JVM
-menu.blog=Site BreizhCamp
-signup.long=Register as a speaker on BreizhCamp CFP
+menu.blog=Site Lean Kanban France
+signup.long=Register as a speaker on Lean Kanban France CFP
 sw.all.hack=Hackatons
 approved=Speaker approved
 cstory=Session de live coding Code-story

@@ -1,5 +1,5 @@
 FROM reubenbond/playframework2
-MAINTAINER BreizhCamp team <team@breizhcamp.org>
+MAINTAINER LeanKanbanFrance team <speakers2015@leankanban.fr>
 
 COPY . /app
 

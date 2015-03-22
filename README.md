@@ -1,7 +1,7 @@
-Call for Paper application for Devoxx
+Call for Paper application for Lean Kanban France (from Devoxx)
 =============
 
-cfp-devoxx-fr
+cfp-leankanban-fr
 =============
 
 Original author: Nicolas Martignole @nmartignole
@@ -159,7 +159,6 @@ Voici ce que vous devez configurer :
 
 - Nicolas Martignole [@nmartignole](http://www.twitter.com/nmartignole)
 - Gabriel Kastenbaum [@lambdadevfr](http://www.twitter.com/lambdadevfr)
-
 - Jean Helou [@jeanhelou](http://www.twitter.com/jeanhelou) pour la conférence Scala.IO
 - Frédéric Camblor [@fcamblor](http://www.twitter.com/fcamblor) pour la conférence BDX.IO
 

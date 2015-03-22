@@ -590,37 +590,37 @@ object ConferenceDescriptor {
   }
 
   def current() = ConferenceDescriptor(
-    eventCode = "BreizhCamp2015",
+    eventCode = "LeanKanbanFrance2015",
     // You will need to update conf/routes files with this code if modified
-    confUrlCode = "breizhcamp2015",
+    confUrlCode = "leankanbanfrance2015",
     frLangEnabled = false,
-    fromEmail = Play.current.configuration.getString("mail.from").getOrElse("team@breizhcamp.org"),
-    committeeEmail = Play.current.configuration.getString("mail.committee.email").getOrElse("team@breizhcamp.org"),
+    fromEmail = Play.current.configuration.getString("mail.from").getOrElse("speakers2015@leankanban.fr"),
+    committeeEmail = Play.current.configuration.getString("mail.committee.email").getOrElse("speakers2015@leankanban.fr"),
     bccEmail = Play.current.configuration.getString("mail.bcc"),
-    bugReportRecipient = Play.current.configuration.getString("mail.bugreport.recipient").getOrElse("mimah35@gmail.com"),
+    bugReportRecipient = Play.current.configuration.getString("mail.bugreport.recipient").getOrElse("dbaeli@gmail.com"),
     conferenceUrls = ConferenceUrls(
-      faq = "http://www.breizhcamp.org/faq/",
-      registration = "http://reg.breizhcamp.org",
-      confWebsite = "http://www.breizhcamp.org/",
-      cfpHostname = Play.current.configuration.getString("cfp.hostname").getOrElse("cfp.breizhcamp.org")
+      faq = "http://www.leankanban.fr",
+      registration = "http://reg.leankanban.fr",
+      confWebsite = "http://www.leankanban.fr/",
+      cfpHostname = Play.current.configuration.getString("cfp.hostname").getOrElse("cfp.leankanban.fr")
     ),
     timing = ConferenceTiming(
-      datesI18nKey = "10 au 12 juin 2015",
-      speakersPassDuration = 3,
+      datesI18nKey = "3 au 4 Novembre 2015",
+      speakersPassDuration = 2,
       preferredDayEnabled = true,
-      firstDayFr = "10 juin",
-      firstDayEn = "june 10th",
-      datesFr = "du 10 au 12 juin 2015",
-      datesEn = "from 10th to 12th of June, 2015",
-      cfpOpenedOn = DateTime.parse("2015-02-24T00:00:00+01:00"),
-      cfpClosedOn = DateTime.parse("2015-04-01T23:59:59+01:00"),
-      scheduleAnnouncedOn = DateTime.parse("2015-04-13T00:00:00+01:00")
+      firstDayFr = "3 novembre",
+      firstDayEn = "november 3rd",
+      datesFr = "du 3 au 4 novembre 2015",
+      datesEn = "from 3rd to 4th of November, 2015",
+      cfpOpenedOn = DateTime.parse("2015-03-01T00:00:00+01:00"),
+      cfpClosedOn = DateTime.parse("2015-11-01T23:59:59+01:00"),
+      scheduleAnnouncedOn = DateTime.parse("2015-04-09T00:00:00+01:00")
     ),
     hosterName = "Google cloud", hosterWebsite = "https://cloud.google.com/",
-    hashTag = "#Breizhcamp",
+    hashTag = "#LKFR15",
     conferenceSponsor = ConferenceSponsor(showSponsorProposalCheckbox = false, sponsorProposalType = ConferenceProposalTypes.CONF),
     List("fr_FR"),
-    "ISTIC, Campus de Beaulieu, Rennes" ,
+    "Maison des Associations, Paris" ,
     showQuestion = true
   )
 

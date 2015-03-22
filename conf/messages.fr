@@ -7,10 +7,10 @@ password=Code d''accès
 CallForPaper=Appel aux conférenciers
 btn.login=Continuer
 menu.register=S''inscrire
-menu.blog=Site BreizhCamp
+menu.blog=Site Lean Kanban France
 login=S''authentifier
 signup=S''inscrire
-signup.long=S''inscrire en tant qu''orateur pour BreizhCamp
+signup.long=S''inscrire en tant qu''orateur pour Lean Kanban France
 
 index.method1=S''authentifier
 # For single quote, you need to double escape
@@ -19,7 +19,7 @@ index.welcome=Déjà inscrit ? Authentifiez-vous avec votre code d''accès :
 
 index.method2=Authentifiez-vous avec OpenId
 index.signupTitle=S''inscrire comme orateur
-index.signup2=Inscrivez-vous comme orateur à BreizhCamp afin de proposer un ou plusieurs sujets :
+index.signup2=Inscrivez-vous comme orateur à Lean Kanban France afin de proposer un ou plusieurs sujets :
 index.signup3=Inscrivez-vous via l''un de vos réseaux sociaux, en quelques secondes, sans devoir valider votre email et utiliser un code d''accès :
 index.signup.btn=S''inscrire
 index.txt2=Utilisez l''un des services ci-dessous, afin de ne pas avoir à mémoriser un code d''accès. Si votre profil n''existe pas, il sera automatiquement créé.
@@ -63,7 +63,7 @@ error.pattern=Doit respecter {0}
 email.alreadyexists=Cette adresse email est déjà enregistrée dans notre base.
 forget.password.confirm=Un courrier électronique a été envoyé à l''adresse spécifiée.
 register.withopenid=Inscrivez-vous avec votre profil social
-cfp.closed=Le CFP de BreizhCamp est fermé.
+cfp.closed=Le CFP de Lean Kanban France est fermé.
 avatarUrl=URL de votre photo
 
 # CFP Home page
@@ -97,10 +97,10 @@ title.help=Proposez un titre simple, clair, qui résume ce que le participant va
 summary=Résumé de votre présentation pour le participant
 summary.help=Décrivez votre proposition, telle que le participant la lira. Vous pouvez utiliser la syntaxe <a href="http://daringfireball.net/projects/markdown/syntax/" target="_blank">Markdown</a>.
 lang=Langue
-lang.help=Les présentations à BreizhCamp doivent être en Français, sauf exceptions.
+lang.help=Les présentations à Lean Kanban France doivent être en Français ou en Anglais.
 mainSpeaker=Présentateur principal
-mainSpeaker.help=Vous avez la possibilité d''ajouter d''autres présentateurs une fois que la proposition est créé. Nous offrons une entrée 3 jours à BreizhCamp uniquement pour les formats de présentation suivants : Conférence, University, Hands-on-Labs et Tools-in-Action.
-talkType.help=Chaque type de conférence est détaillé sur la page <a href="http://www.breizhcamp.org/faq/#confType" target="new">FAQ</a> du site BreizhCamp.
+mainSpeaker.help=Vous avez la possibilité d''ajouter d''autres présentateurs une fois que la proposition est créé. Nous offrons une entrée 2 jours à Lean Kanban France uniquement pour les formats de présentation suivants : Conférence, University, Hands-on-Labs et Tools-in-Action.
+talkType.help=Chaque type de conférence est détaillé sur la page <a href="http://www.leankanban.fr/faq/#confType" target="new">FAQ</a> du site Lean Kanban France.
 
 
 talkType=Type de présentation
@@ -117,7 +117,7 @@ moreSpeakerLater=Vous aurez la possibilité d''ajouter un ou plusieurs speakers 
 btn.save=Sauver l''édition
 btn.home=Retour à l''accueil sans sauver
 btn.save2=Sauvegarder votre proposition
-not.saved=Vérifiez le résumé à destination du participant à BreizhCamp, puis cliquez sur "Sauvegarder la proposition" pour continuer.
+not.saved=Vérifiez le résumé à destination du participant à Lean Kanban France, puis cliquez sur "Sauvegarder la proposition" pour continuer.
 validate.summary2=ou sinon utilisez
 validate.summary3=Retour à la page précédente
 validate.summary4=de votre navigateur pour corriger votre texte de résumé.
@@ -146,7 +146,7 @@ msg=Votre message
 
 # Home
 appel.conf=Appel aux conférenciers
-appel.conf.dates=Call for Paper, BreizhCamp 2015, 10 au 12 juin 2015
+appel.conf.dates=Call for Paper, Lean Kanban France 2015, 3 au 4 novembre 2015
 cfp.opening=Ouverture du CFP
 cfp.closing=Fermeture du CFP
 cfp.closing.date=pensez à accepter ou décliner les sujets approuvés par le comité.
@@ -195,7 +195,7 @@ track.lang.desc=Ruby, Scala, Javascript, Haskell, C#, Dart, PHP, Go, Python etc.
 lang.label=Langages
 
 # Confirm import
-confirm.import.title=Créer votre profil de présentateur BreizhCamp
+confirm.import.title=Créer votre profil de présentateur Lean Kanban France
 confirm.import.save=Enregistrer et continuer
 avatarUrl.isEmpty=L''URL de votre photo est vide, nous utiliserons votre
 avatarUrl.defined=Votre photo (largeur recommandée 120px)
@@ -204,11 +204,11 @@ avatarUrl.defined=Votre photo (largeur recommandée 120px)
 created.title=Demande d''inscription enregistrée
 created.text1=Nous allons vous envoyer un courrier électronique de validation dans quelques minutes.
 created.text2=Validez votre adresse pour terminer votre enregistrement, votre code d''accès vous sera donné lorsque vous validerez votre email.
-created.text3=Vous pourrez alors vous authentifier et commencer à proposer vos sujets pour BreizhCamp.
+created.text3=Vous pourrez alors vous authentifier et commencer à proposer vos sujets pour Lean Kanban France.
 
 # Prepare signup
 signup.title=Inscription orateur
-signup.txt1=Inscrivez-vous pour proposer vos sujets de présentation pour la conférence BreizhCamp 2015 :
+signup.txt1=Inscrivez-vous pour proposer vos sujets de présentation pour la conférence Lean Kanban France 2015 :
 signup.txt2=Un email de validation est envoyé à l''adresse indiquée. Votre profil ne sera actif une fois que votre adresse de courrier électronique sera validée.
 
 # edit profile
@@ -288,7 +288,7 @@ nav.homeSpeaker=Accueil
 editWebuser.title=Votre profil
 
 cfp.isOpen=Le CFP est ouvert
-cfp.open.enter=Proposer un sujet pour BreizhCamp
+cfp.open.enter=Proposer un sujet pour Lean Kanban France
 
 #CFP admin
 admin.proposals.th.title=Titre
@@ -371,10 +371,10 @@ comment.proposal=Fil de discussion
 saved1=Proposition enregistrée. Pensez à soumettre le sujet en cliquant sur l''enveloppe orange !
 saved2=Proposition éditée et enregistrée.
 
-approve.title=BreizhCamp, Termes et Conditions du Présentateur
-accept.chk=J''accepte les conditions de BreizhCamp
-acceptTerm.pleaseRead=Merci de prendre le temps de lire et d''accepter les termes et conditions pour présenter à BreizhCamp :
-accept.term.checked=Merci de cocher cette case si vous acceptez les conditions de BreizhCamp
+approve.title=Lean Kanban France, Termes et Conditions du Présentateur
+accept.chk=J''accepte les conditions de Lean Kanban France
+acceptTerm.pleaseRead=Merci de prendre le temps de lire et d''accepter les termes et conditions pour présenter à Lean Kanban France :
+accept.term.checked=Merci de cocher cette case si vous acceptez les conditions de Lean Kanban France
 
 acceptedProposals.title=Liste de vos soumissions approuvées/refusées
 ar.approved=Soumissions approuvées
@@ -485,7 +485,7 @@ not.published=L''agenda pour ce type de conférence n''est pas encore publié.
 day-thu=Jeudi
 day-fri=Vendredi
 day-wed=Mercredi
-acceptedTerms.msg=Vous avez accepté les Termes et Conditions de BreizhCamp, merci !
+acceptedTerms.msg=Vous avez accepté les Termes et Conditions de Lean Kanban France, merci !
 
 antispam=Pour prouver que vous n''êtes pas un robot mais un humain, combien font 38+4 ?
 bugReport.sent=Votre message a été envoyé à l''équipe, merci !
@@ -509,11 +509,11 @@ btn.saveAndSend=Sauver et envoyer au comité
 btn.saveDraft=Sauver comme Draft (Brouillon)
 cfp.reminder=Rappel
 cfp.reminder.proposals=pensez à soumettre votre brouillon au comité en cliquant sur "Envoyer"
-cfp.title=BreizhCamp 2015
+cfp.title=Lean Kanban France 2015
 conf.label.simple=Conférence
 CONF.subtitle=FR
-CONF.title=BreizhCamp 2015
-conference.dates=10 au 12 juin 2015
+CONF.title=Lean Kanban France 2015
+conference.dates=3 au 4 novembre 2015
 contacted=Speaker contacté
 d1.label=Uniquement des slides
 d2.label=Slides et un peu de code
@@ -538,11 +538,11 @@ code.label.simple=Codestory
 level1.label=Ouvert à tout niveau d''audience, débutant comme expert
 level2.label=Pour une audience intermédiaire, avec une connaissance sur le sujet
 level3.label=Pour un public d''expert ou de sénior sur ce sujet
-longName=BreizhCamp CFP
+longName=Lean Kanban France CFP
 longSplittedName_colored=
 longSplittedName_whiteEnd=
-longSplittedName_whiteStart=BreizhCamp
-longYearlyName=BreizhCamp 2015
+longSplittedName_whiteStart=Lean Kanban France
+longYearlyName=Lean Kanban France 2015
 mail.access_code.subject=Votre code d''accès présentateur pour {0}
 mail.account_created.subject=Bienvenue sur le CFP pour {0}
 mail.cfp_message_to_speaker.subject=[{1}] Message à propos de votre presentation {0}
@@ -560,8 +560,8 @@ qualifications.label=Qualifications du présentateur
 qualifications.otherproposals=Autres propositions du speaker
 quick.label.simple=Quickie
 remove.sponsorFlag=Retirer le flag sponsor de cette présentation
-shortName=BreizhCamp
-shortYearlyName=BreizhCamp 2015
+shortName=LKFR
+shortYearlyName=LKFR 2015
 ssj.label=Server Side Java
 start=Startup presentation
 start.label=
