@@ -99,7 +99,7 @@ audienceLevel.help=Please, indicate the required audience level for your talk\:\
 
 
 privateMessage=Message for the program committee, motivation for your presentation
-privateMessage.help=Write here any important details about your presentation, that the program committee should know. You can also set here the URL to your slides, or a link to an existing online talk for example on Parleys.com.
+privateMessage.help=Write here any important details about your presentation, that the program committee should know. You can also set here the URL to your slides, or a link to an existing online talk for example on Infoq.com.
 sponsorTalk=Is this a sponsor presentation?
 
 sponsorTalk.help.title=Sponsor talk
@@ -179,41 +179,41 @@ track.description=Description
 appel.conf.dates=Lean Kanban France 2015, 3rd-4th November
 
 # Tracks
-track.webmobile.title=Web, Mobile &  UX
-track.webmobile.desc=Web, mobile, user-experience, front-end and Web architecture
-webmobile.label=Web, Mobile & UX
+track.webmobile.title=WHY
+track.webmobile.desc=kanban, explain, theory
+webmobile.label=WHY
 
-track.archisec.title=Architecture, Performance & Security
-track.archisec.desc=Software architecture, performance, encryption and best practices to develop secure software
-archisec.label=Architecture, Performance and Security
+track.archisec.title=WHAT
+track.archisec.desc=kanban, practice, methods
+archisec.label=WHAT
 
-track.agilityTest.title=Agility, Methodology & Test
-track.agilityTest.desc=Software development methodologies, TDD, BDD, xDD
-agilityTest.label=Agility, Methodology & Test
+track.agilityTest.title=HOW
+track.agilityTest.desc=kanban
+agilityTest.label=HOW
 
-track.java.title=Java, infinite possibilities &#8734;
-track.java.desc=Everything about Java, the JVM, Java SE 8 or Java EE.
-java.label=Java, infinite possibilities &#8734;
+track.java.title=FUN
+track.java.desc=Other sessions, ideally making fun of kanban
+java.label=FUN
 
-track.cloudDevops.title=Cloud, DevOps and Tools
-track.cloudDevops.desc=Cloud-computing, DevOps, Paas, Iaas
-cloudDevops.label=Cloud & DevOps
+track.cloudDevops.title=N/A
+track.cloudDevops.desc=
+cloudDevops.label=N/A
 
-track.bigdata.title=Big Data & Analytics
-track.bigdata.desc=From real-time analysis to massive prediction and cloud storage
-bigdata.label=Big Data & Analytics
+track.bigdata.title=N/A
+track.bigdata.desc=
+bigdata.label=N/A
 
-track.future.title=Future<Lean Kanban France>
-track.future.desc=Developing for embedded devices, the internet of things, Arduino, raspberry pi, quadcopters, robots and related
-future.label=Future<Lean Kanban France>
+track.future.title=N/A
+track.future.desc=
+future.label=N/A
 
-track.lang.title=Alternate Languages
-track.lang.desc=Groovy, Scala, Javascript, Clojure, Haskell, C#, Dart, Ceylon, Go, etc.
-lang.label=Alternate Languages
+track.lang.title=N/A
+track.lang.desc=
+lang.label=N/A
 
-track.web.title=Web & HTML5
-track.web.desc=Web frameworks, HTML5, CSS3, the next JavaScript ES6, libraries and tools that help you build the next generation of web apps
-web.label=Web & HTML5
+track.web.title=N/A
+track.web.desc=
+web.label=N/A
 
 # confirm import
 confirm.import.title=Create your Speaker''s profile

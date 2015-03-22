@@ -160,10 +160,10 @@ theme.track=Les différentes tracks pour proposer un sujet :
 track.title=Titre
 track.description=Description
 
-track.webmobile.title=Web, Mobile et UX
-track.webmobile.desc=Web, mobile, user-experience, front-end et architecture Webs.
-wm.label=Web, Mobile & UX
-webmobile.label=Web, Mobile & UX
+track.webmobile.title=WHY
+track.webmobile.desc=WHY Lean Kanban
+wm.label=WHY
+webmobile.label=WHY
 
 track.archisec.title=Architecture, Performance & Securité
 track.archisec.desc=Architecture, performance, encryption et meilleurs pratiques pour développer un logiciel sécurisé.
