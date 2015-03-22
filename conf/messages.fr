@@ -165,34 +165,33 @@ track.webmobile.desc=WHY Lean Kanban
 wm.label=WHY
 webmobile.label=WHY
 
-track.archisec.title=Architecture, Performance & Securité
-track.archisec.desc=Architecture, performance, encryption et meilleurs pratiques pour développer un logiciel sécurisé.
-archisec.label=Architecture, Performance et Securité
+track.archisec.title=WHAT
+track.archisec.desc=WHAT 
+archisec.label=WHAT
 
-track.agilityTest.title=Agilité, Méthodologie & Tests
-track.agilityTest.desc=Méthode de développement logiciel, TDD, BDD, xDD
-agTest.label=Agilité, Methodologie & Tests
-agilityTest.label=Agilité, Methodologie & Tests
+track.agilityTest.title=HOW
+track.agilityTest.desc=Comment mettre en place Lean Kanban
+agilityTest.label=HOW
 
-track.java.title=Java, JVM, Javas SE/EE
-track.java.desc=Tout sur Java, la JVM, Java 8, 9 et Java EE.
-java.label=Java, JVM, Javas SE/EE
+track.java.title=FUN
+track.java.desc=Autres types de session
+java.label=FUN
 
-track.cloudDevops.title=Cloud, DevOps, Outils
-track.cloudDevops.desc=Cloud-computing, DevOps, pratiques et outils
-cldops.label=Cloud, DevOps, Outils
+track.cloudDevops.title=N/A
+track.cloudDevops.desc=N/A
+cldops.label=N/A
 
-track.bigdata.title=BigData et Analytics
-track.bigdata.desc=Stocker, analyser les données et revoir la gestion de la data.
-bigd.label=BigData et Analytics
+track.bigdata.title=N/A
+track.bigdata.desc=N/A
+bigd.label=N/A
 
-track.future.title=Objects connectés, IoT, Robotique
-track.future.desc=L''internet des objets, la robotique, la domotique et l''embarqué
-future.label=Objects connectés, IoT, Robotique
+track.future.title=N/A
+track.future.desc=N/A
+future.label=N/A
 
-track.lang.title=Langages
-track.lang.desc=Ruby, Scala, Javascript, Haskell, C#, Dart, PHP, Go, Python etc.
-lang.label=Langages
+track.lang.title=N/A
+track.lang.desc=N/A
+lang.label=N/A
 
 # Confirm import
 confirm.import.title=Créer votre profil de présentateur Lean Kanban France
