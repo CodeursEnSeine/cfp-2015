@@ -8,12 +8,14 @@ GET           /status                                               controllers.
 GET           /logout                                               controllers.Authentication.logout
 POST          /login                                                controllers.Authentication.login
 
+#
 GET           /signup                                               controllers.Authentication.prepareSignup
 GET           /signup/github                                        controllers.Authentication.createFromGithub
 GET           /login/github                                         controllers.Authentication.githubLogin
 POST          /github/callback                                      controllers.Authentication.callbackGithub
 GET           /github/callback                                      controllers.Authentication.callbackGithub
 
+#
 GET           /signup/linkedin                                      controllers.Authentication.createFromLinkedin
 GET           /login/linkedin                                       controllers.Authentication.linkedinLogin
 POST          /authenticate/linkedin                                controllers.Authentication.callbackLinkedin

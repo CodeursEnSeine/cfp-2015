@@ -111,16 +111,17 @@ object ConferenceDescriptor {
 
     val OTHER = ProposalType(id = "other", label = "other.label")
 
-    val ALL = List(CONF, TIA, LAB, QUICK, KEY, HACK, OTHER)
+    //val ALL = List(CONF, TIA, LAB, QUICK, KEY, HACK, OTHER)
+    val ALL = List(CONF, UNI, OTHER)
 
     def valueOf(id: String): ProposalType = id match {
       case "conf" => CONF
       case "uni" => UNI
-      case "tia" => TIA
-      case "lab" => LAB
-      case "quick" => QUICK
-      case "key" => KEY
-      case "hack" => HACK
+      //case "tia" => TIA
+      //case "lab" => LAB
+      //case "quick" => QUICK
+      //case "key" => KEY
+      //case "hack" => HACK
       case "other" => OTHER
     }
 
@@ -143,7 +144,8 @@ object ConferenceDescriptor {
       chosablePreferredDay = false)
     val OTHER = ProposalConfiguration(id = "other", slotsCount = 1, givesSpeakerFreeEntrance = false, freeEntranceDisplayed = false, htmlClass = "icon-microphone",
       hiddenInCombo = true, chosablePreferredDay = false)
-    val ALL = List(CONF, UNI, TIA, LAB, QUICK, KEY, HACK, OTHER)
+    //val ALL = List(CONF, UNI, TIA, LAB, QUICK, KEY, HACK, OTHER)
+    val ALL = List(CONF, UNI, OTHER)
 
     def doesItGivesSpeakerFreeEntrance(proposalType: ProposalType): Boolean = {
       ALL.filter(_.id == proposalType.id).exists(_.givesSpeakerFreeEntrance)
@@ -155,12 +157,13 @@ object ConferenceDescriptor {
     val ARCHISEC = Track("archisec", "archisec.label")
     val AGILITY_TESTS = Track("agTest", "agilityTest.label")
     val JAVA = Track("java", "java.label")
-    val CLOUDDEVOPS = Track("cldops", "cloudDevops.label")
-    val BIGDATA = Track("bigd", "bigdata.label")
-    val FUTURE = Track("future", "future.label")
-    val LANG = Track("lang", "lang.label")
+    //val CLOUDDEVOPS = Track("cldops", "cloudDevops.label")
+    //val BIGDATA = Track("bigd", "bigdata.label")
+    //val FUTURE = Track("future", "future.label")
+    //val LANG = Track("lang", "lang.label")
     val UNKNOWN = Track("unknown", "unknown track")
-    val ALL = List(WEB_MOBILE, ARCHISEC, AGILITY_TESTS, JAVA, CLOUDDEVOPS, BIGDATA, FUTURE, LANG, UNKNOWN)
+    //val ALL = List(WEB_MOBILE, ARCHISEC, AGILITY_TESTS, JAVA, CLOUDDEVOPS, BIGDATA, FUTURE, LANG, UNKNOWN)
+    val ALL = List(WEB_MOBILE, ARCHISEC, AGILITY_TESTS, JAVA, UNKNOWN)
   }
 
   object ConferenceTracksDescription {

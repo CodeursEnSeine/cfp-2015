@@ -125,7 +125,7 @@ next.action=Select next action:
 # Proposal type
 
 conf.label=Conférence, 55min, jeudi et vendredi
-uni.label=University, 3h, mercredi uniquement
+uni.label=Workshop, 3h, mercredi uniquement
 tia.label=Tools in Action, 30min, mercredi uniquement
 quick.label=Quickie, 15min, jeudi et vendredi midi
 amd.label=Après-midi des Décideurs, 30mn, jeudi après-midi
@@ -134,7 +134,7 @@ other.label=Autre type de présentation
 lab.label=Hand''s on Lab, 2h, jeudi uniquement
 hack.label=Hackaton (événement spécial)
 
-key.label=Keynote, 20mn, Thursday and Friday 
+key.label=Keynote, Tuesday and Wednesday 
 key.label.simple=Keynote
 conf.label=Conference, 55min, Thursday and Friday 
 conf.label.simple=Conference
@@ -180,39 +180,39 @@ appel.conf.dates=Lean Kanban France 2015, 3rd-4th November
 
 # Tracks
 track.webmobile.title=WHY
-track.webmobile.desc=kanban, explain, theory
+track.webmobile.desc=Sessions to explain the why
 webmobile.label=WHY
 
 track.archisec.title=WHAT
-track.archisec.desc=kanban, practice, methods
+track.archisec.desc=Sessions to explain the what
 archisec.label=WHAT
 
 track.agilityTest.title=HOW
-track.agilityTest.desc=kanban
+track.agilityTest.desc=Sessions to explain the how
 agilityTest.label=HOW
 
 track.java.title=FUN
-track.java.desc=Other sessions, ideally making fun of kanban
+track.java.desc=Other sessions, ideally making fun
 java.label=FUN
 
 track.cloudDevops.title=N/A
-track.cloudDevops.desc=
+track.cloudDevops.desc=N/A
 cloudDevops.label=N/A
 
 track.bigdata.title=N/A
-track.bigdata.desc=
+track.bigdata.desc=N/A
 bigdata.label=N/A
 
 track.future.title=N/A
-track.future.desc=
+track.future.desc=N/A
 future.label=N/A
 
 track.lang.title=N/A
-track.lang.desc=
+track.lang.desc=N/A
 lang.label=N/A
 
 track.web.title=N/A
-track.web.desc=
+track.web.desc=N/A
 web.label=N/A
 
 # confirm import
