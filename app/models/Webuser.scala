@@ -180,8 +180,12 @@ object Webuser {
   }
 
   def isMember(uuid: String, securityGroup: String): Boolean = Redis.pool.withClient {
+    println(uuid+":"+securityGroup)
+
+    ///client.sismember("Webuser:" + securityGroup, uuid)
+
     client =>
-      Cache.getOrElse[Boolean](s"Webuser:$securityGroup:$uuid", 3600) {
+      Cache.getOrElse[Boolean](s"Webuser:$securityGroup:$uuid", 2) {
         client.sismember("Webuser:" + securityGroup, uuid)
       }
   }

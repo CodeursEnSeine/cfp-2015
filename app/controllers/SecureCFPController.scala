@@ -171,7 +171,7 @@ object SecureCFPController {
 
   def findAuthenticator(implicit request: RequestHeader): Option[String] = {
     try {
-      val res = request.session.get("uuid").orElse(request.cookies.get("cfp_rm").map(v => Crypto.decryptAES(v.value)))
+      val res = request.session.get("uuid").orElse(request.cookies.get("cfp_rm").map(v => v.value)) // Crypto.decryptAES(v.value)))
       res
     } catch {
       case _: IllegalBlockSizeException => None

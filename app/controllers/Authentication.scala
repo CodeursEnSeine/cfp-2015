@@ -561,7 +561,7 @@ object Authentication extends Controller  {
   }
 
   private def createCookie(webuser: Webuser) = {
-    Cookie("cfp_rm", value = Crypto.encryptAES(webuser.uuid), maxAge = Some(588000))
+    Cookie("cfp_rm", value = webuser.uuid, maxAge = Some(588000))// Crypto.encryptAES(webuser.uuid), maxAge = Some(588000))
   }
 
 

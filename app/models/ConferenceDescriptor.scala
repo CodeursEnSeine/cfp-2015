@@ -112,17 +112,17 @@ object ConferenceDescriptor {
     val OTHER = ProposalType(id = "other", label = "other.label")
 
     //val ALL = List(CONF, TIA, LAB, QUICK, KEY, HACK, OTHER)
-    val ALL = List(CONF, UNI, OTHER)
+    val ALL = List(CONF, QUICK)
 
     def valueOf(id: String): ProposalType = id match {
       case "conf" => CONF
-      case "uni" => UNI
+      //case "uni" => UNI
       //case "tia" => TIA
       //case "lab" => LAB
-      //case "quick" => QUICK
+      case "quick" => QUICK
       //case "key" => KEY
       //case "hack" => HACK
-      case "other" => OTHER
+      //case "other" => OTHER
     }
 
   }
@@ -145,7 +145,7 @@ object ConferenceDescriptor {
     val OTHER = ProposalConfiguration(id = "other", slotsCount = 1, givesSpeakerFreeEntrance = false, freeEntranceDisplayed = false, htmlClass = "icon-microphone",
       hiddenInCombo = true, chosablePreferredDay = false)
     //val ALL = List(CONF, UNI, TIA, LAB, QUICK, KEY, HACK, OTHER)
-    val ALL = List(CONF, UNI, OTHER)
+    val ALL = List(CONF, QUICK)
 
     def doesItGivesSpeakerFreeEntrance(proposalType: ProposalType): Boolean = {
       ALL.filter(_.id == proposalType.id).exists(_.givesSpeakerFreeEntrance)
@@ -153,29 +153,29 @@ object ConferenceDescriptor {
   }
 
   object ConferenceTracks {
-    val WEB_MOBILE = Track("wm", "webmobile.label")
-    val ARCHISEC = Track("archisec", "archisec.label")
-    val AGILITY_TESTS = Track("agTest", "agilityTest.label")
+    val WEB = Track("web", "web.label")
+    val INNOVATION = Track("innov", "innov.label")
+    val AGILE = Track("agile", "agile.label")
     val JAVA = Track("java", "java.label")
     //val CLOUDDEVOPS = Track("cldops", "cloudDevops.label")
     //val BIGDATA = Track("bigd", "bigdata.label")
     //val FUTURE = Track("future", "future.label")
     //val LANG = Track("lang", "lang.label")
-    val UNKNOWN = Track("unknown", "unknown track")
+    //val UNKNOWN = Track("unknown", "unknown track")
     //val ALL = List(WEB_MOBILE, ARCHISEC, AGILITY_TESTS, JAVA, CLOUDDEVOPS, BIGDATA, FUTURE, LANG, UNKNOWN)
-    val ALL = List(WEB_MOBILE, ARCHISEC, AGILITY_TESTS, JAVA, UNKNOWN)
+    val ALL = List(WEB, JAVA, AGILE, INNOVATION)
   }
 
   object ConferenceTracksDescription {
-    val WEB_MOBILE = TrackDesc(ConferenceTracks.WEB_MOBILE.id, "/assets/devoxxbe2014/images/icon_web.png", "track.webmobile.title", "track.webmobile.desc")
-    val ARCHISEC = TrackDesc(ConferenceTracks.ARCHISEC.id, "/assets/devoxxbe2014/images/icon_architecture.png", "track.archisec.title", "track.archisec.desc")
-    val AGILITY_TESTS = TrackDesc(ConferenceTracks.AGILITY_TESTS.id, "/assets/devoxxbe2014/images/icon_startup.png", "track.agilityTest.title", "track.agilityTest.desc")
+    val WEB = TrackDesc(ConferenceTracks.WEB.id, "/assets/devoxxbe2014/images/icon_web.png", "track.web.title", "track.web.desc")
+    val INNOVATION = TrackDesc(ConferenceTracks.INNOVATION.id, "/assets/devoxxbe2014/images/icon_architecture.png", "track.innov.title", "track.innov.desc")
+    val AGILE = TrackDesc(ConferenceTracks.AGILE.id, "/assets/devoxxbe2014/images/icon_startup.png", "track.agile.title", "track.agile.desc")
     val JAVA = TrackDesc(ConferenceTracks.JAVA.id, "/assets/devoxxbe2014/images/icon_javase.png", "track.java.title", "track.java.desc")
 //    val CLOUDDEVOPS = TrackDesc(ConferenceTracks.CLOUDDEVOPS.id, "/assets/devoxxbe2014/images/icon_cloud.png", "track.cloudDevops.title", "track.cloudDevops.desc")
 //    val BIGDATA = TrackDesc(ConferenceTracks.BIGDATA.id, "/assets/devoxxbe2014/images/icon_mobile.png", "track.bigdata.title", "track.bigdata.desc")
 //    val FUTURE = TrackDesc(ConferenceTracks.FUTURE.id, "/assets/devoxxbe2014/images/icon_future.png", "track.future.title", "track.future.desc")
 //    val LANG = TrackDesc(ConferenceTracks.LANG.id, "/assets/devoxxbe2014/images/icon_alternative.png", "track.lang.title", "track.lang.desc")
-    val ALL = List(WEB_MOBILE, ARCHISEC, AGILITY_TESTS, JAVA)
+    val ALL = List(WEB, JAVA, AGILE, INNOVATION)
 
     def findTrackDescFor(t: Track): TrackDesc = {
       ALL.find(_.id == t.id).head
@@ -612,7 +612,7 @@ object ConferenceDescriptor {
       speakersPassDuration = 2,
       preferredDayEnabled = true,
       firstDayFr = "26 novembre",
-      firstDayEn = "november 26 rd",
+      firstDayEn = "november 26th",
       datesFr = "du 26 novembre 2015",
       datesEn = "from 26th of November, 2015",
       cfpOpenedOn = DateTime.parse("2015-05-21T00:00:00+01:00"),
@@ -623,7 +623,7 @@ object ConferenceDescriptor {
     hashTag = "#CES15",
     conferenceSponsor = ConferenceSponsor(showSponsorProposalCheckbox = false, sponsorProposalType = ConferenceProposalTypes.CONF),
     List("fr_FR"),
-    "Université de Rouen, Madrillet, Saint Etienne du Rouvray" ,
+    "Université de Rouen, Madrillet, Saint Etienne du Rouvray (Sud Rouen)" ,
     showQuestion = true
   )
 
