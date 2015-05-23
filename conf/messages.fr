@@ -153,7 +153,7 @@ cfp.closing.date=pensez à accepter ou décliner les sujets approuvés par le co
 cfp.program=Annonce du programme :
 cfp.program.date=à partir de la juin 2015
 video.title=Vidéos de l''édition 2014
-video.tag=Retrouvez les sessions de l''édition 2014 sur le site
+video.tag=Retrouvez les sessions de l''édition 2014 sur les 
 theme.title=Thèmes
 theme.track=Les différentes tracks pour proposer un sujet :
 
