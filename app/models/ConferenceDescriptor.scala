@@ -593,37 +593,37 @@ object ConferenceDescriptor {
   }
 
   def current() = ConferenceDescriptor(
-    eventCode = "LeanKanbanFrance2015",
+    eventCode = "CodeursEnSeine2015",
     // You will need to update conf/routes files with this code if modified
-    confUrlCode = "leankanbanfrance2015",
+    confUrlCode = "codeursEnSeine2015",
     frLangEnabled = false,
-    fromEmail = Play.current.configuration.getString("mail.from").getOrElse("speakers2015@leankanban.fr"),
-    committeeEmail = Play.current.configuration.getString("mail.committee.email").getOrElse("speakers2015@leankanban.fr"),
+    fromEmail = Play.current.configuration.getString("mail.from").getOrElse("contact@codeursenseine.com"),
+    committeeEmail = Play.current.configuration.getString("mail.committee.email").getOrElse("contact@codeursenseine.com"),
     bccEmail = Play.current.configuration.getString("mail.bcc"),
-    bugReportRecipient = Play.current.configuration.getString("mail.bugreport.recipient").getOrElse("dbaeli@gmail.com"),
+    bugReportRecipient = Play.current.configuration.getString("mail.bugreport.recipient").getOrElse("youen.chene@gadz.org"),
     conferenceUrls = ConferenceUrls(
-      faq = "http://www.leankanban.fr",
-      registration = "http://reg.leankanban.fr",
-      confWebsite = "http://www.leankanban.fr/",
-      cfpHostname = Play.current.configuration.getString("cfp.hostname").getOrElse("cfp.leankanban.fr")
+      faq = "http://www.codeursenseine.com",
+      registration = "http://www.codeursenseine.com",
+      confWebsite = "http://www.codeursenseine.com",
+      cfpHostname = Play.current.configuration.getString("cfp.hostname").getOrElse("http://cfp.codeursenseine.com")
     ),
     timing = ConferenceTiming(
-      datesI18nKey = "3 au 4 Novembre 2015",
+      datesI18nKey = "26 Novembre 2015",
       speakersPassDuration = 2,
       preferredDayEnabled = true,
-      firstDayFr = "3 novembre",
-      firstDayEn = "november 3rd",
-      datesFr = "du 3 au 4 novembre 2015",
-      datesEn = "from 3rd to 4th of November, 2015",
-      cfpOpenedOn = DateTime.parse("2015-03-01T00:00:00+01:00"),
-      cfpClosedOn = DateTime.parse("2015-11-01T23:59:59+01:00"),
-      scheduleAnnouncedOn = DateTime.parse("2015-04-09T00:00:00+01:00")
+      firstDayFr = "26 novembre",
+      firstDayEn = "november 26 rd",
+      datesFr = "du 26 novembre 2015",
+      datesEn = "from 26th of November, 2015",
+      cfpOpenedOn = DateTime.parse("2015-05-21T00:00:00+01:00"),
+      cfpClosedOn = DateTime.parse("2015-07-31T23:59:59+01:00"),
+      scheduleAnnouncedOn = DateTime.parse("2015-09-01T00:00:00+01:00")
     ),
     hosterName = "Google cloud", hosterWebsite = "https://cloud.google.com/",
-    hashTag = "#LKFR15",
+    hashTag = "#CES15",
     conferenceSponsor = ConferenceSponsor(showSponsorProposalCheckbox = false, sponsorProposalType = ConferenceProposalTypes.CONF),
     List("fr_FR"),
-    "Maison des Associations, Paris" ,
+    "Université de Rouen, Madrillet, Saint Etienne du Rouvray" ,
     showQuestion = true
   )
 

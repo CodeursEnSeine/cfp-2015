@@ -1,19 +1,19 @@
 # -----------------
 # Main conference details
-CONF.title=Lean Kanban France 2015
+CONF.title=Codeurs en Seine
 CONF.subtitle=
 
 # Equivalent to ConferenceNaming
-shortYearlyName=LKFR 2015
-longYearlyName=Lean Kanban France 2015
-shortName=LKFR
-longName=Lean Kanban France CFP
+shortYearlyName=CES 2015
+longYearlyName=Codeurs en Seine 2015
+shortName=CES
+longName=Codeurs en Seine CFP
 longSplittedName_whiteStart=
 longSplittedName_colored=
 longSplittedName_whiteEnd=Lean Kanban France
 conference.dates=3rd-4th November
 # -----------------
-cfp.title=Lean Kanban France 2015 CFP
+cfp.title=Codeurs en Seine 2015 CFP
 login.error=Invalid email or password
 menu.home=Home
 menu.register=Sign-in
