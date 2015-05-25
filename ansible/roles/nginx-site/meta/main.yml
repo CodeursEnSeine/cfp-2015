@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  author: Youen Chéné
+  description: Add a site into nginx conf
+  company: 
+  license: license (MIT)
+  min_ansible_version: 1.5
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+
+  categories:
+  - system
+  - networking
+  - web
+
+dependencies: []

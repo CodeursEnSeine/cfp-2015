@@ -1,0 +1,22 @@
+---
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker build --file=tests/centos-6.Dockerfile       --tag=centos-6       .
+    - docker build --file=tests/centos-7.Dockerfile       --tag=centos-7       .
+    - docker build --file=tests/debian-wheezy.Dockerfile  --tag=debian-wheezy  .
+    - docker build --file=tests/debian-jessie.Dockerfile  --tag=debian-jessie  .
+    - docker build --file=tests/ubuntu-precise.Dockerfile --tag=ubuntu-precise .
+    - docker build --file=tests/ubuntu-trusty.Dockerfile  --tag=ubuntu-trusty  .
+
+test:
+  override:
+    - docker run centos-6
+    - docker run centos-7
+    - docker run debian-wheezy
+    - docker run debian-jessie
+    - docker run ubuntu-precise
+    - docker run ubuntu-trusty

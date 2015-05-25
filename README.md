@@ -155,6 +155,59 @@ Voici ce que vous devez configurer :
 - Configurez enfin l'adresse d'un serveur ElasticSearch
 
 
+# Installer sa propre version du CFP (2)
+
+Imaginons que vous êtes à moitié Breton et que vous souhaitiez installer ce CFP pour votre conférence :-) mais que n'avez pas encore eu le temps monter en compétence sur docker.
+
+Pour pouvoir faire tourner en production votre propre application du CFP, il est nécessaire de configurer différents éléments dans le fichier **application.conf** de Play 2.2.
+
+Voici ce qu'il vous faut
+
+- un compte [Mailjet](http://www.mailjet.fr) pour l'envoi SMTP des emails transactionnels
+- un compte [Github](http://www.github.com) pour pouvoir créer une clé API pour l'authentification OpenID. Voir [https://github.com/settings/applications](cette page)
+- créer une application via votre compte Google sur [https://cloud.google.com/console#/project](https://cloud.google.com/console#/project) . Configurez une URL pour le développement, comme http://localhost:9000/ et une URL de prod comme http://cfp.devoxx.fr/
+- mettre un mot de passe compliqué et long pour le serveur Redis
+Voici ce que vous devez configurer :
+
+- Renommez le fichier **application-please-customize-me.conf** en **application.conf**
+- Générez une chaîne de caractère pour la sécurité de l'application
+
+    application.secret="a_unique_secret"
+
+- Configurez le serveur SMTP en prenant les paramètres de Mailjet
+- Configurez la partie Github
+- Configurez la partie Google pour l'authentification OAuth2.0
+- Configurez enfin le serveur Redis (127.0.0.1). Prenez soin de configurer un mot de passe très long pour votre serveur Redis
+- 127.0.0.1 pour l'adresse d'un serveur ElasticSearch
+
+
+Ensuite, vous avez un dossier "ansible" qui vous permet d'initialiser un serveur avec :
+
+- un elastic search
+- un redis
+- un nginx
+- l'upload de la version dist du projet cfp.
+
+Pour cela :
+
+- installer ansible (brew ansible sous mac, apt-get ansible sous linux)
+- à la racine, lancer un "activator dist"
+
+Ensuite dans le dossier ansible :
+
+- créer un fichier inventory avec les information de votre serveur
+- lancer ansible-playbook cf-playbook.yml -i  inventory
+
+Il y a encore un bug ds le script pour lancer le projet, pour le momment connecter vous sur le serveur et lancer le à la main.
+
+Bonus, initialiser un admin en mode hacker :
+
+- s'inscrire en tant que speaker
+- se connecter sur le serveurs redis.
+- "AUTH <motdepasse>"
+- lister les clef (et voir le uuid) : "KEYS *"
+- ajouter les droits: "SADD Webuser:cfp <uid>" puis "SADD Webuser:admin <uid>"
+
 # Contributeurs
 
 - Nicolas Martignole [@nmartignole](http://www.twitter.com/nmartignole)
