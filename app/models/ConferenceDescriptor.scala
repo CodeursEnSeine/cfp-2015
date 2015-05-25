@@ -588,7 +588,7 @@ object ConferenceDescriptor {
     // COMPLETE DEVOXX
 
     def all: List[Slot] = {
-      monday ++ tuesday ++ wednesday ++ thursday ++ friday
+      thursday
     }
   }
 
@@ -609,7 +609,7 @@ object ConferenceDescriptor {
     ),
     timing = ConferenceTiming(
       datesI18nKey = "26 Novembre 2015",
-      speakersPassDuration = 2,
+      speakersPassDuration = 1,
       preferredDayEnabled = true,
       firstDayFr = "26 novembre",
       firstDayEn = "november 26th",

@@ -129,10 +129,10 @@ presubmit.reminder=Lorsque vous êtes prêt à soumettre votre proposition, n''o
 
 # Proposal type
 key.label=Keynote, mardi et mercredi matin
-conf.label=Conférence, 55min, jeudi et vendredi
+conf.label=Conférence, 50min, jeudi
 uni.label=University, 3h, mercredi uniquement
 tia.label=Tools in Action, 30min, mercredi uniquement
-quick.label=Quickie, 15min, jeudi et vendredi midi
+quick.label=Quickie, 15min, jeudi midi
 amd.label=Après-midi des Décideurs, 30mn, jeudi après-midi
 bof.label=Bird of a Feather, 1h, jeudi soir uniquement
 other.label=Autre type de présentation
@@ -161,19 +161,19 @@ track.title=Titre
 track.description=Description
 
 track.web.title=WEB
-track.web.desc=Sessions autours du web 
+track.web.desc=Sessions autour du web 
 web.label=WEB
 
 track.innov.title=INNOVATION
-track.innov.desc=Sessions autours des Objects connectés, Big Data, Machine Learning, No SQL, Robotique et autres...
+track.innov.desc=Sessions autour des Objects connectés, Big Data, Machine Learning, No SQL, Robotique et autres...
 innov.label=INNOVATION
 
 track.agile.title=AGILE
-track.agile.desc=Sessions autours de l''agilité
+track.agile.desc=Sessions autour de l''agilité
 agile.label=AGILE
 
 track.java.title=JAVA
-track.java.desc=Sessions autours de l''écosystème Java
+track.java.desc=Sessions autour de l''écosystème Java
 java.label=JAVA
 
 track.cloudDevops.title=N/A
