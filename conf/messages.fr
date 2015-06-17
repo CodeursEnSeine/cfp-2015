@@ -1,3 +1,7 @@
+cfp.title=Codeurs en Seine 2015 Appel à Orateurs
+
+longName=Codeurs en Seine Appel à Orateurs
+
 login.error=Email inconnu ou code d''accès invalide
 menu.home=Accueil
 email=Adresse email
@@ -63,7 +67,7 @@ error.pattern=Doit respecter {0}
 email.alreadyexists=Cette adresse email est déjà enregistrée dans notre base.
 forget.password.confirm=Un courrier électronique a été envoyé à l''adresse spécifiée.
 register.withopenid=Inscrivez-vous avec votre profil social
-cfp.closed=Le CFP de Codeurs en Seine est fermé.
+cfp.closed=L''appel à orateur de Codeurs en Seine est fermé.
 avatarUrl=URL de votre photo
 
 # CFP Home page
@@ -94,8 +98,8 @@ Edit.proposal2=Éditer une proposition, étape 2/2
 
 title=Titre de la présentation
 title.help=Proposez un titre simple, clair, qui résume ce que le participant va apprendre. Beaucoup de participants sélectionnent une conférence au dernier moment, en se basant sur le titre.
-summary=Résumé de votre présentation pour le participant
-summary.help=Décrivez votre proposition, telle que le participant la lira. Vous pouvez utiliser la syntaxe <a href="http://daringfireball.net/projects/markdown/syntax/" target="_blank">Markdown</a>.
+summary=Résumé de votre présentation pour le public
+summary.help=Décrivez votre proposition, telle que le public la lira. Vous pouvez utiliser la syntaxe <a href="http://daringfireball.net/projects/markdown/syntax/" target="_blank">Markdown</a>.
 lang=Langue
 lang.help=Les présentations à Codeurs en Seine doivent être en Français.
 mainSpeaker=Présentateur principal
@@ -145,10 +149,10 @@ btn.send=Envoyer
 msg=Votre message
 
 # Home
-appel.conf=Appel aux conférenciers
-appel.conf.dates=Call for Paper, Codeurs en Seine 2015, 26 novembre 2015
-cfp.opening=Ouverture du CFP
-cfp.closing=Fermeture du CFP
+appel.conf=Appel à orateurs
+appel.conf.dates=Appel à orateurs, Codeurs en Seine 2015, 26 novembre 2015
+cfp.opening=Ouverture de l''appel à orateurs
+cfp.closing=Fermeture du l''appel à orateurs
 cfp.closing.date=pensez à accepter ou décliner les sujets approuvés par le comité.
 cfp.program=Annonce du programme :
 cfp.program.date=à partir de septembre 2015
@@ -285,7 +289,7 @@ freepass.forIdiots=L''entrée est offerte uniquement si votre présentation est 
 nav.homeSpeaker=Accueil
 editWebuser.title=Votre profil
 
-cfp.isOpen=Le CFP est ouvert
+cfp.isOpen=L''appel à orateur est ouvert
 cfp.open.enter=Proposer un sujet pour Codeurs en Seine
 
 #CFP admin
@@ -349,11 +353,11 @@ admin.sp.accepted.txt=Ce sujet a été Accepté par le speaker.
 admin.sp.approved.txt=Ce sujet a été Approuvé par le comité de sélection.
 btn.abstention=Voter 0 pour passer au suivant
 
-cfp.isClosed=Le CFP est fermé
-cfp.isClosed.expl=Le CFP est actuellement fermé.
+cfp.isClosed=L''appel à orateurs est fermé
+cfp.isClosed.expl=L''appel à orateurs est actuellement fermé.
 cfp.closed.enter=S''authentifier
-tbl.cfp.closed=CFP fermé
-cfp.closed.restrictions=Le CFP est fermé. Vous pouvez éditer votre proposition. Cependant, merci de ne pas la modifier complètement par rapport à la version originale, sans quoi nous l''annulerons systématiquement.
+tbl.cfp.closed=Appel à orateurs fermé
+cfp.closed.restrictions=L''appel à orateurs est fermé. Vous pouvez éditer votre proposition. Cependant, merci de ne pas la modifier complètement par rapport à la version originale, sans quoi nous l''annulerons systématiquement.
 
 forget.password.title=Code d''accès oublié ?
 forget.password.txt=Envoyez-moi un email de réinitialisation
@@ -521,9 +525,9 @@ day-friday=Vendredi
 day-wednesday=Mercredi
 declined=Speaker a décliné
 demoLevel=Quel type de présentation allez-vous faire ?
-demoLevel1.label=Que des slides
-demoLevel2.label=Slides et du code
-demoLevel3.label=Que du code
+demoLevel1.label=Slides
+demoLevel2.label=Slides et code
+demoLevel3.label=Code
 demoLevel4.label=Ni slides, ni code
 key.label.simple=Plénière (Keynote)
 l1.label=niveau 1 : débutant
@@ -536,13 +540,13 @@ code.label.simple=Codestory
 level1.label=Ouvert à tout niveau d''audience, débutant comme expert
 level2.label=Pour une audience intermédiaire, avec une connaissance sur le sujet
 level3.label=Pour un public d''expert ou de sénior sur ce sujet
-longName=Codeurs en Seine CFP
+longName=Codeurs en Seine - Appel à Orateurs
 longSplittedName_colored=
 longSplittedName_whiteEnd=
 longSplittedName_whiteStart=Codeurs en Seine
 longYearlyName=Codeurs en Seine 2015
 mail.access_code.subject=Votre code d''accès présentateur pour {0}
-mail.account_created.subject=Bienvenue sur le CFP pour {0}
+mail.account_created.subject=Bienvenue sur l''appel à orateurs pour {0}
 mail.cfp_message_to_speaker.subject=[{1}] Message à propos de votre presentation {0}
 mail.draft_multiple_reminder.subject={1} rappel : vous avez {0} propositions à soumettre
 mail.draft_single_reminder.subject={0} reminder : you have one proposal with status ''Draft''
@@ -569,8 +573,8 @@ table.pres.trash=Effacer cette proposition
 tia.label.simple=Tools in Action
 uni.label.simple=University
 unknown=Inconnu
-userGroup=Proposer cette présentation à des groupes d''utilisateurs ?
-userGroup.checkbox=Oui, je serai éventuellement aussi intéressé pour présenter ce sujet à d''autres groupes d''utilisateurs
+userGroup=Partager cette présentation à des MeetUps, JUGs, NWX Tech?
+userGroup.checkbox=Oui, je serai éventuellement aussi intéressé pour présenter ce sujet à des MeetUps, JUGs, NWX Tech
 wishlist.cancelEdit=Retourner à votre liste de requêtes
 wishlist.createRequest=Créer une requête
 wishlist.editRequest=Éditer une requête
@@ -611,8 +615,8 @@ day-monday=Lundi 10 novembre
 day-thursday=Jeudi 9 avril
 day-tuesday=Mardi 7 avril
 mail.email_validation.subject=Bienvenue à {0}, merci de valider votre adresse email
-mail.issue_reported.subject=Nouvel incident reporté sur le site du CFP
-mail.notify_proposal.content=Une nouvelle proposition a été envoyée au CFP. Titre [{0}], Track: [{1}] et Type: [{2}]
+mail.issue_reported.subject=Nouvel incident reporté sur le site de l''appel à orateurs
+mail.notify_proposal.content=Une nouvelle proposition a été envoyée à l''appel à orateurs. Titre [{0}], Track: [{1}] et Type: [{2}]
 mail.notify_proposal.subject={0} a soumis un sujet [{1}]
 mail.proposal_approved.subject=Votre proposition de sujet a été approuvée {0}
 mail.proposal_refused.subject=Votre proposition de sujet a été déclinée {0}
