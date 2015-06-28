@@ -178,30 +178,29 @@ track.title=Title
 track.description=Description
 appel.conf.dates=Codeurs en Seine 2015, 26th November
 
-# Tracks
-track.webmobile.title=WHY
-track.webmobile.desc=Sessions to explain the why
-webmobile.label=WHY
+track.web.title=WEB
+track.web.desc=About Web development
+web.label=WEB
 
-track.archisec.title=WHAT
-track.archisec.desc=Sessions to explain the what
-archisec.label=WHAT
+track.innov.title=INNOVATION
+track.innov.desc=Abiout IoT, Big Data, Machaine Learning, NoSQL, Robots, whatever...
+innov.label=INNOVATION
 
-track.agilityTest.title=HOW
-track.agilityTest.desc=Sessions to explain the how
-agilityTest.label=HOW
+track.agile.title=AGILE
+track.agile.desc=About Agile practices
+agile.label=AGILE
 
-track.java.title=FUN
-track.java.desc=Other sessions, ideally making fun
-java.label=FUN
+track.java.title=JAVA
+track.java.desc=About Java ecosystem
+java.label=JAVA
 
 track.cloudDevops.title=N/A
 track.cloudDevops.desc=N/A
-cloudDevops.label=N/A
+cldops.label=N/A
 
 track.bigdata.title=N/A
 track.bigdata.desc=N/A
-bigdata.label=N/A
+bigd.label=N/A
 
 track.future.title=N/A
 track.future.desc=N/A
@@ -210,10 +209,6 @@ future.label=N/A
 track.lang.title=N/A
 track.lang.desc=N/A
 lang.label=N/A
-
-track.web.title=N/A
-track.web.desc=N/A
-web.label=N/A
 
 # confirm import
 confirm.import.title=Create your Speaker''s profile
