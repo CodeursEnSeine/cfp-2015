@@ -1,5 +1,5 @@
 FROM reubenbond/playframework2
-MAINTAINER LeanKanbanFrance team <speakers2015@leankanban.fr>
+MAINTAINER CodeursEnSeine team <contact@codeursenseine.com>
 
 COPY . /app
 

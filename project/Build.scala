@@ -10,7 +10,7 @@ import play.Project._
 object ApplicationBuild extends Build {
 
   val appName = "cfp-devoxxfr"
-  val appVersion = "1.3-SNAPSHOT"
+  val appVersion = "1.4-SNAPSHOT"
 
   val appDependencies = Seq(
     "redis.clients" % "jedis" % "2.1.0"
